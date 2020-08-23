@@ -36,6 +36,8 @@ const orm = {
   insertOne: (table, cols, vals, cb)=>{
     let queryString = `INSERT INTO ${table}`;
     queryString += `(`;
+    queryString += cols.toString();
+    queryString += `) `
     queryString += `VALUES (`;
     queryString += printQuestionMarks(vals.length);
     queryString += `) `
@@ -49,7 +51,7 @@ const orm = {
   },
   updateOne: (table, objColVals, condition, cb)=>{
     let queryString = `UPDATE ${table}`;
-    queryString += `SET `;
+    queryString += ` SET `;
     queryString += objToSql(objColVals);
     queryString += ` WHERE `;
     queryString += condition;

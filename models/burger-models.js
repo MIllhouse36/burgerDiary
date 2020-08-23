@@ -12,7 +12,7 @@ const burger = {
     });
   },
  updateOne: (objColVals, condition, cb)=>{
-    orm.insertOne(`Burgers`, objColVals, condition, cb, (res)=>{
+    orm.updateOne(`Burgers`, objColVals, condition, cb, (res)=>{
       cb(res);
     });
   },
