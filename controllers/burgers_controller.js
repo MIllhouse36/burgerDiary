@@ -16,8 +16,8 @@ router.post("/api/burgers", (req,res)=>{
     "name"
   ], [
     req.body.name
-  ], (res)=>{
-    res.json({id: res.insertId})
+  ], (result)=>{
+    res.json({id: result.insertId})
   })
 })
 
