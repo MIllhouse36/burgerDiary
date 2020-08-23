@@ -1,5 +1,4 @@
 const orm = require("../config/orm");
-const { json } = require("express");
 
 const burger = {
   selectAll: (cb)=>{
@@ -23,3 +22,4 @@ const burger = {
     });
   }
 }
+module.exports = burger
