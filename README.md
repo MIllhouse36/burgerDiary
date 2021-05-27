@@ -1,7 +1,7 @@
 # Burger Diary
-![burger_diary](https://user-images.githubusercontent.com/37388720/119700372-204c4680-be21-11eb-8fc6-5b32026eb367.png)
+![burger_diary](https://user-images.githubusercontent.com/37388720/119700372-204c4680-be21-11eb-8fc6-5b32026eb367.png)'
 
-##  Burger Diary
+## Description
 This a restaurant app that lets users input the names of burgers they'd like to eat.
 ## Installation
 npm i
