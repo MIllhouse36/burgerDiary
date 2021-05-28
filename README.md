@@ -32,7 +32,7 @@ npm install
 and your off to the races with your development environment for this project.
 
 ## Dependencies
-express, express-handlebars, mysql
+express, express-handlebars, mysql, bootstrap
 
 ## Project status
 Development of this projects has been halted with plans to covert this project into a full stack react application with user authentication. Also this app will evolve into a restaurant companion app with a tip calculator and added functionality to catalog the restaurant the burger was purchased from. 
