@@ -1,5 +1,5 @@
 {
-  "name": "eatdajawn",
+  "name": "burger-diary",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MIllhouse36/eatDaJawn.git"
+    "url": "git+https://github.com:MIllhouse36/burgerDiary.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MIllhouse36/eatDaJawn/issues"
+    "url": "https://github.com/MIllhouse36/burgerDiary/issues"
   },
-  "homepage": "https://github.com/MIllhouse36/eatDaJawn#readme",
+  "homepage": "https://github.com/MIllhouse36/burgerDiary",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0",
